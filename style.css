@@ -1,0 +1,73 @@
+* { /*essa parte eu vou usar para ressetar os valores padroes do navegador */
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    background-color: #E5E5E5;
+     
+}
+
+header {
+    width: 100%;
+    display: flex;
+    height: 125px;
+    align-content: space-between; /*vertical-align*/
+    justify-content: space-between; /*horizontal-align*/
+    box-shadow: 1px 6px 19px 0px rgba(0,0,0,0.75);
+    position: absolute;
+    background-color: #E5E5E5;
+
+
+}
+
+.logo {
+    width: 25%;
+
+} 
+
+
+nav {
+    
+    width: 50%;
+    height: 125px;
+    display: flex;
+    padding: 0 75px
+
+}
+
+ul {
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+
+.end-top {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 16px;
+    margin-right: 10px;
+
+
+}
+
+
+.backdrop img {
+    margin-top: 125px;
+    max-width: 1500px; /* esse é o maximo que e meu main vai ter*/
+    width: 100%; /* caso o minha tela tenha menos de 580px o meu main vai ter 90% do tamanho */
+
+}
+    

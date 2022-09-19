@@ -25,10 +25,10 @@ header {
 
 }
 
-.logo img{
-    height: 100%;
-    
-}
+.logo {
+    width: 25%;
+
+} 
 
 
 nav {    
@@ -136,6 +136,9 @@ i {
     header {
         height: 50px
     }
+    .logo img{
+        height: 50px
+    }
 }
 
 @media (min-width: 724px) and   (max-width:1024px) {
@@ -143,6 +146,9 @@ i {
         font-size: 56%;
     }
     header {
+        height: 100px
+    }
+    .logo img{
         height: 100px
     }
 }

@@ -13,6 +13,8 @@ html {
 }
 
 header {
+    top: 0;
+    left: 0;
     width: 100vw;
     display: flex;
     height: 100px;
@@ -33,7 +35,7 @@ a:link {
 
 
 .logo {
-    width: 25%;
+    width: 10vw;
 } 
 
 .logo img {
@@ -42,7 +44,7 @@ a:link {
 
 
 nav {    
-    width: 50vw;
+    width: 60vw;
     height: 100%;
     display: flex;
     padding: 2rem;

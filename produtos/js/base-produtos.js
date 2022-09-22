@@ -62,5 +62,6 @@ const data_produtos = [
         tipo: 'chaveiro',
         linkShoppe:'https://shopee.com.br/Chaveiro-BTS-Whale-Tiny-Tan-i.342748490.16565793445?xptdk=91494678-6b3f-4dc0-bd75-ace46485e516',
     },
+ //copias 
 
 ]

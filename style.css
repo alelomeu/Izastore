@@ -61,14 +61,42 @@ ul {
     line-height:normal;
 }
 
-nav ul {
+.principal-menu {
     display: flex;
     width: 100vw;
     align-items: center;
     justify-content: center;
-    gap: 2.5rem;
+    gap: 1.5rem;
+    float: left;
+    
+
     
 }
+
+.menu-secundario{
+    position: absolute;
+    background-color: #e5e5e5e1;
+    width: 12rem;
+    align-content: center;
+    display: none;
+    box-shadow: -1px 23px 20px 0px rgba(0,0,0,0.35);
+    border-radius: 4px;
+
+    
+}
+
+.principal-menu:hover ul, .menu-secundario li.over ul{
+    display: block;
+}
+.menu-secundario li {
+    height: 2.5rem;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 0.9rem ;
+    
+}
+
 
 
 nav a:visited {
@@ -189,7 +217,8 @@ nav i {
     justify-content: center ;
     gap: 1.6em;
     width: 100vw;
-    align-content: center
+    align-content: center;
+
 }
 
 .info-compra {

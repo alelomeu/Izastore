@@ -312,5 +312,6 @@ nav i {
     
 }
 
-
-
+.hidden {
+    display: none;
+}

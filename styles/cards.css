@@ -1,0 +1,17 @@
+.product {
+    text-align: center;
+   
+}
+
+.product img {
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 6px 9px 26px -7px #949494 ;
+
+}
+
+.container-products img {
+    width: 200px
+}
+
+

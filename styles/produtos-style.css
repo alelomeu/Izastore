@@ -25,7 +25,9 @@ aside ul {
 main {
     width: 75vw;
     height: 100vh;
-   
+    justify-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 main ul {
@@ -45,8 +47,19 @@ main img {
 
 }
 
+ul {
+
+        list-style: none;
+        display: flex;
+        justify-items: center;;
+
+    
+}
+
 li{
-justify-self: center;
+    justify-self: center;
+    justify-items: center;;
+    display: flex;
 }
 
 li h3 {

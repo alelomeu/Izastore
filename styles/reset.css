@@ -1,0 +1,27 @@
+:root{
+    --purple: #43295a;
+    --purple100: #c4acd9 ;
+    --purple50:#c4b4d5;
+    --gray50: #E5E5E5;
+    --purple75: #c4b4d57e;
+    --border-radius4: 4px;
+    --border-radius8: 8px;
+}
+*{ 
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+}
+
+a {
+    color: var(--purple);
+    text-decoration: none
+}
+
+html {
+    font-family: 'Open Sans';
+    color:var(--purple)
+}
+

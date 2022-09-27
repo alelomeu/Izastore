@@ -1,0 +1,24 @@
+.button{
+    background-color: transparent;
+    border: none;
+    
+}
+
+.button-purple {
+    background-color: transparent;
+    border: 1px solid var(--purple100);
+    width: 400px;
+    height: 30px;
+    color: var(--purple);
+    border-radius: var(--border-radius8);
+
+}
+
+.button-purple-small {
+    background-color: #e5e5e550;
+    border: 1px solid var(--purple);
+    width: 100px;
+    height: 30px;
+    color: var(--purple);
+    border-radius: var(--border-radius8);
+}

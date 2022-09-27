@@ -61,14 +61,11 @@ function criarTemplate(produtos){
 // Barra de busca
 
 const inputSearch = document.querySelector('#txtBusca')
-const buttonSearch = document.querySelector('.fi fi-rs-search')
-
-
 const product     = document.querySelectorAll('.product')
+
+console.log(product)
+
 const nameProduct = document.querySelectorAll('h3')
-
-
-
 
 const hiddenProduct = (allProducts,inputValue) =>  {
 
@@ -81,9 +78,6 @@ const hiddenProduct = (allProducts,inputValue) =>  {
 
 }
 
-
-
-
 const showProdutos = (allProducts, inputValue) => {
 
         allProducts
@@ -93,8 +87,6 @@ const showProdutos = (allProducts, inputValue) => {
         })
 
 }
-
-
 inputSearch.addEventListener('input', event => {
         const inputValue = event.target.value.trim().toLowerCase()
         const allProducts =  Array.from(listaDeProdutos.children)
@@ -105,4 +97,10 @@ inputSearch.addEventListener('input', event => {
 })
 
 
+const buttonSearch = document.querySelector("#button-search")
+buttonSearch.addEventListener('click', () => {
 
+       
+        window.location.href = "./produtos.html"
+
+})

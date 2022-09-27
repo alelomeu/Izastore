@@ -1,0 +1,38 @@
+.gap15 {
+    gap: 1.5rem;
+}
+
+.gap5 {
+    gap: 0.3rem;
+}
+
+.gap20 {
+    gap: 2rem;
+}
+
+.gap30 {
+    gap: 75px;
+}
+
+
+.margin-right {
+    margin-right: 2rem;
+
+}
+
+.margin-top {
+    margin-top: 1.3rem;
+}
+
+.margin-content {
+    margin-top: 7vw;
+}
+
+
+.padding {
+    padding: 2.2rem;
+}
+.big-padding {
+   padding: 100px;
+}
+

@@ -4,99 +4,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Iza Store :)</title> 
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
-    <link rel="stylesheet" href="./style.css">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/buttons.css">
+    <link rel="stylesheet" href="./styles/input.css">
+    <link rel="stylesheet" href="./styles/positions.css">
+    <link rel="stylesheet" href="./styles/sizes.css">
+    <link rel="stylesheet" href="./styles/spaces.css">
+    <link rel="stylesheet" href="./styles/cards.css">
+
+
+
+
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;800&display=swap" rel="stylesheet">
     <link rel="icon" href="./assets/logo-sem-fundo.png">
-</head>
+</head> 
 <body>
     <header>
         <div class="logo">
-            <a
-            href="https://alelomeu.github.io/Izastore/">
-            <img src="./assets/logo.png" alt="Logo da minha lojinha">
-            </a>
+            <a href="./index.html">
+            <img  class = "height-full" src="./assets/logo site.png" alt="Logo da minha lojinha">
+      
         </div>
 
-        <nav>
-            <ul class="principal-menu">
-                <li>
-                    <a href="https://alelomeu.github.io/Izastore/"> INICIO</a>
+        <nav class = "flex  itens-center ">
+            <ul class = "justify-center itens-center flex justify-around width-full padding ">
+                <li class = " text-big text-center align-content-center width-min textDestaque">
+                    <a class = "text-center" href="./index.html"> INICIO</a>
                 </li>
                     
-                    <li class="dropdown">
+                    <li class="dropdown text-big align-content-center width-min">
                         <a  href="./produtos/produtos.html" class="dropbtn"> PRODUTOS </a>
                        
                             <ul  class="menu-secundario">
-                                <li> 
+                                <li class = "text-small"> 
                                     <a href="./produtos/bordados.html"> BORDADOS </a>
-                                </li>
-                                <li> 
+                                </li >
+                                <li class = "text-small"> 
                                     <a href="./produtos/chaveiros.html"> CHAVEIROS </a>
                                 </li>
-                                <li> 
+                                <li class = "text-small"> 
                                     <a href="./produtos/ecobag.html"> ECOBAG </a>
                                 </li>
                             </ul>       
                                                                 
                     </li>
                    
-                <li>
-                    <a href="https://alelomeu.github.io/Izastore//Contato"> CONTATO </a>
+                <li class = "text-big">
+                    <a href="./contato.html"> CONTATO </a>
                 </li>
            </ul>  
         </nav>
 
-        <div class="end-top">
-            <div id="search">
-                <input type="text" id="txtBusca" placeholder="Buscar..."/>
-                <i class="fi fi-rs-search"></i>
-              </div>
-                <i class="fi fi-rs-user"></i>
-                <i class="fi fi-rs-shopping-cart-add"></i>
-           </div>
+      
     </header>
 
-    <main>
-        <section class="backdrop">
+    <main id="main-index" class="bg-gray gap20 justify-center">
+        <section class="backdrop width-screen" >
             <a
             href="https://alelomeu.github.io/Izastore/">
-            <img src="./assets/backdrop.png" alt="Almofada de baleia" >
+            <img class = "width-screen" src="./assets/backdrop.png" alt="Almofada de baleia" >
             </a>
         </section>
 
-        <section class="info">
-            <ul>
-                <li>
-                    <i class="fi fi-rs-truck-moving"></i> 
+        <section class="info flex width-full margin-top">
+            <ul class="width-full  gap20 flex justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="30" height="30" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve"><g><path xmlns="http://www.w3.org/2000/svg" d="M23.641,10.76,22.632,7.735A3.994,3.994,0,0,0,18.838,5H16.9A5.009,5.009,0,0,0,12,1H5A5.006,5.006,0,0,0,0,6V19.5a3.517,3.517,0,0,0,6,2.447A3.517,3.517,0,0,0,12,19.5V19h3v.5a3.5,3.5,0,0,0,7,0V18.463A4,4,0,0,0,24,15V12.974A7,7,0,0,0,23.641,10.76ZM20.735,8.368,21.612,11H17V7h1.838A2,2,0,0,1,20.735,8.368ZM2,6A3,3,0,0,1,5,3h7a3,3,0,0,1,3,3V17H2ZM3.5,21A1.5,1.5,0,0,1,2,19.5V19H5v.5A1.5,1.5,0,0,1,3.5,21ZM10,19.5a1.5,1.5,0,0,1-3,0V19h3Zm10,0a1.5,1.5,0,0,1-3,0V19h3ZM20,17H17V13h5v2A2,2,0,0,1,20,17Z" fill="#43295a" data-original="#000000"/></g></svg>
+
+                <li class = "margin-right">
                     <div class="info-compra">
-                        <h3>ENVIAMOS SUAS COMPRAS</h3>
-                        <p>Entrega em todo o país</p>
+                        <h3 class = "text-big">ENVIAMOS SUAS COMPRAS</h3>
+                        <p class = "text-small">Entrega em todo o país</p>
                     </div>
                 </li>
-               
-                <li>
-                    <i class="fi fi-rs-credit-card"></i>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="30" height="30" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve"><g><circle xmlns="http://www.w3.org/2000/svg" cx="5.5" cy="15.5" r="1.5" fill="#43295a" data-original="#000000"/><path xmlns="http://www.w3.org/2000/svg" d="M19,3H5A5.006,5.006,0,0,0,0,8v8a5.006,5.006,0,0,0,5,5H19a5.006,5.006,0,0,0,5-5V8A5.006,5.006,0,0,0,19,3ZM5,5H19a3,3,0,0,1,3,3H2A3,3,0,0,1,5,5ZM19,19H5a3,3,0,0,1-3-3V10H22v6A3,3,0,0,1,19,19Z" fill="#43295a" data-original="#000000"/></g></svg>
+                <li class = "margin-right">
                     <div class="info-compra">
-                        <h3>PAGUE COMO QUISER </h3>
-                        <p>Cartões de crédito ou à vista </p>
+                        <h3 class = "text-big" >PAGUE COMO QUISER </h3>
+                        <p class = "text-small">Cartões de crédito ou à vista </p>
                     </div>
                 </li>
-                <li>
-                    <i class="fi fi-rs-lock"></i>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="30" height="30" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve"><g><path xmlns="http://www.w3.org/2000/svg" d="M19,8.424V7A7,7,0,0,0,5,7V8.424A5,5,0,0,0,2,13v6a5.006,5.006,0,0,0,5,5H17a5.006,5.006,0,0,0,5-5V13A5,5,0,0,0,19,8.424ZM7,7A5,5,0,0,1,17,7V8H7ZM20,19a3,3,0,0,1-3,3H7a3,3,0,0,1-3-3V13a3,3,0,0,1,3-3H17a3,3,0,0,1,3,3Z" fill="#43295a" data-original="#000000"/><path xmlns="http://www.w3.org/2000/svg" d="M12,14a1,1,0,0,0-1,1v2a1,1,0,0,0,2,0V15A1,1,0,0,0,12,14Z" fill="#43295a" data-original="#000000"/></g></svg>
+
+                <li class = "margin-right">
                     <div class="info-compra">
-                        <h3>COMPRE COM SEGURANÇA</h3>
-                        <p>Seus dados sempre protegidos</p>
+                        <h3 class = "text-big">COMPRE COM SEGURANÇA</h3>
+                        <p class = "text-small">Seus dados sempre protegidos</p>
                     </div>
                 </li>
-                <li>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="30" height="30" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve"><g><path xmlns="http://www.w3.org/2000/svg" d="M8.965,24H4a4,4,0,0,1-4-4V15a4,4,0,0,1,4-4h8.857a3.144,3.144,0,0,1,2.69,1.519l3.217-3.535a3.01,3.01,0,0,1,4.254-.2,3.022,3.022,0,0,1,.217,4.23l-6.8,7.637A10.012,10.012,0,0,1,8.965,24ZM4,13a2,2,0,0,0-2,2v5a2,2,0,0,0,2,2H8.965a8.005,8.005,0,0,0,5.972-2.678l6.805-7.638a1.015,1.015,0,0,0-.072-1.421A1.029,1.029,0,0,0,20.942,10a1,1,0,0,0-.7.329L15.816,15.2A3.158,3.158,0,0,1,13.3,17.252l-5.161.738a1,1,0,0,1-.284-1.98l5.162-.737A1.142,1.142,0,0,0,12.857,13Zm7-3.926a1.986,1.986,0,0,1-1.247-.436C8.041,7.264,6,5.2,6,3.2A3.109,3.109,0,0,1,9,0a2.884,2.884,0,0,1,2,.817A2.884,2.884,0,0,1,13,0a3.109,3.109,0,0,1,3,3.2c0,2-2.041,4.064-3.754,5.439A1.986,1.986,0,0,1,11,9.074ZM9,2A1.115,1.115,0,0,0,8,3.2c0,.9,1.151,2.39,3.006,3.879C12.849,5.59,14,4.1,14,3.2A1.115,1.115,0,0,0,13,2a1.115,1.115,0,0,0-1,1.2,1,1,0,0,1-2,0A1.115,1.115,0,0,0,9,2Z" fill="#43295a" data-original="#000000"/></g></svg>
+                <li class = "margin-right">
                     <i class="fi fi-rs-hand-holding-heart"></i>
                     <div class="info-compra">
-                        <h3>FEITO COM AMOR </h3>
-                        <p>Peças feitas a mão</p>
+                        <h3 class = "text-big">FEITO COM AMOR </h3>
+                        <p class = "text-small">Peças feitas a mão</p>
                     </div>
                 </li>
             </ul>
@@ -106,10 +112,10 @@
              
         </section>
 
-        <section class="products-index">
-            <h2> Destaques </h2>
+        <section class="vitrine margin-top ">
+            <h2 class="text-center text-biggest" > Destaques </h2>
 
-            <ul class="container-products">
+            <ul class="container-products flex gap30 wrap justify-center justify-around  padding">
              
                 <li class="product">
                     <a
@@ -117,9 +123,10 @@
                         href="https://shopee.com.br/BTS-Whale-Almofada-%F0%9F%90%B3-i.342748490.18228566919?sp_atk=f04edcd7-8040-4c24-8268-2098a9af3972&is_from_login=true">
                         <img src="./assets/Produtos Site/almofada-baleia.png" alt="Foto da Almofada de baleia" >
                     </a>
-                    <h3 class="name-products"> BTS - Whale Almofada </h3>
-                    <p class="price-products"> R$85,00 </p>
-                    <p class="price-split-price"> 12x R$7,08 (Sem Juros)</p>
+                    <h3 class="text-big margin-top"> BTS - Whale Almofada </h3>
+                    <h2 class="text-small"> R$85,00 </h2>
+                    <p>  </p>
+                    <p class="text-small"> 12x R$7,08 (Sem Juros)</p>
                 </li>
 
                 <li class="product">
@@ -128,20 +135,20 @@
                         href="https://shopee.com.br/Bordado-BTS-Young-Forever-i.342748490.21333200844?sp_atk=715417b7-987c-4e2b-8140-42f3af47ef11">
                         <img src="./assets/Produtos Site/bordado-forever-yong.png" alt="Foto do Bordado BTS - Young Forever" >
                     </a>
-                    <h3 class="name-products"> Bordado - Young Forever </h3>
-                    <p class="price-products"> R$130,00 </p>
-                    <p class="price-split-price"> 12x R$10,83 (Sem Juros)</p>
+                    <h3 class="text-big margin-top"> Bordado - Young Forever </h3>
+                    <h2 class="text-small"> R$130,00 </h2>
+                    <p class="text-small"> 12x R$10,83 (Sem Juros)</p>
                 </li>
 
-                <li class="product">
+                <li class="product ">
                     <a
                         target="_blank" 
                         href="https://shopee.com.br/BTS-Proof-Yet-to-Come-i.342748490.19833204038?sp_atk=6e394120-96b0-4bea-9f7d-4dcadc94dbcf">
                         <img src="./assets/Produtos Site/bordado-yet-to-come.png" alt="Foto do Bordado BTS Proof - Yet to Come" >
                     </a>
-                    <h3 class="name-products"> Bordado Proof - Yet to Come </h3>
-                    <p class="price-products"> R$130,00 </p>
-                    <p class="price-split-price"> 12x R$10,83 (Sem Juros)</p>
+                    <h3 class="text-big margin-top"> Bordado Proof - Yet to Come </h3>
+                    <h2 class="text-small"> R$130,00 </h2>
+                    <p class="text-small"> 12x R$10,83 (Sem Juros)</p>
                     </li>
 
                 <li class="product">
@@ -150,9 +157,9 @@
                         href="https://shopee.com.br/Chaveiro-BTS-Personalizado-i.342748490.21002027344">
                         <img src="./assets/Produtos Site/chaveiro-tae.png" alt="Foto do Chaveiro Urso Tae Tae" >
                     </a>
-                    <h3 class="name-products"> Chaveiro Urso Tae Tae </h3>
-                    <p class="price-products"> R$16,00 </p>
-                    <p class="price-split-price"> 1x R$16,00 (Sem Juros) </p>
+                    <h3 class="text-big margin-top"> Chaveiro Urso Tae Tae </h3>
+                    <h2 class="text-small"> R$16,00 </h2>
+                    <p class="text-small"> 1x R$16,00 (Sem Juros) </p>
                  </li>
 
                 <li class="product">
@@ -161,9 +168,9 @@
                         href="https://shopee.com.br/BTS-PROOF-Ecobag-i.342748490.21320383338?sp_atk=f00ca759-5a63-4491-a737-3eb34eaefbe7">
                         <img src="./assets/Produtos Site/ecobag-proof.png" alt="Foto da Ecobag - BTS PROOF" >
                     </a>
-                    <h3 class="name-products"> Ecobag - BTS PROOF </h3>
-                    <p class="price-products"> R$48,00 </p>
-                    <p class="price-split-price"> 12x R$4,00 (Sem Juros) </p>
+                    <h3 class="text-big margin-top"> Ecobag - BTS PROOF </h3>
+                    <h2 class="text-small"> R$48,00 </h2>
+                    <p class="text-small"> 12x R$4,00 (Sem Juros) </p>
                 </li>
 
                 <li class="product">
@@ -172,9 +179,9 @@
                         href="https://shopee.com.br/Park-Jimin-(BTS)-Be-A-Good-Human-i.342748490.20627980831">
                         <img src="./assets/Produtos Site/ecobag-be-a-good-human.png" alt="Foto da Ecobag - Park Jimin (BTS) - Be A Good Human" >
                     </a>
-                    <h3 class="name-products"> EcoBag - Be A Good Human </h3>
-                    <p class="price-products"> R$43,00 </p>
-                    <p class="price-split-price"> 12x R$3,58 (Sem Juros) </p>
+                    <h3 class="text-big margin-top"> EcoBag - Be A Good Human </h3>
+                    <h2 class="text-small"> R$43,00 </h2>
+                    <p class="text-small"> 12x R$3,58 (Sem Juros) </p>
                 </li>
 
                 <li class="product">
@@ -183,9 +190,9 @@
                         href="https://shopee.com.br/Chaveiro-BTS-Whale-Tiny-Tan-i.342748490.16565793445?xptdk=91494678-6b3f-4dc0-bd75-ace46485e516">
                         <img src="./assets/Produtos Site/chaveiro-baleia.png" alt="Foto do Chaveiro BTS - Whale Tiny Tan" >
                     </a>
-                    <h3 class="name-products"> Chaveiro BTS - Whale Tiny Tan </h3>
-                    <p class="price-products"> R$16,00 </p>
-                    <p class="price-split-price"> 1x R$16,00 (Sem Juros) </p>
+                    <h3 class="text-big margin-top"> Chaveiro BTS - Whale Tiny Tan </h3>
+                    <h2 class="text-small"> R$16,00 </h2>
+                    <p class="text-small"> 1x R$16,00 (Sem Juros) </p>
                 </li>
                     
                  <li class="product">
@@ -194,32 +201,39 @@
                         href="https://shopee.com.br/Park-Jimin-(BTS)-Be-A-Good-Human-i.342748490.20627980831">
                         <img src="./assets/Produtos Site/ecobag-please-love-me.png" alt="Foto da Ecobag JungKook BTS - Please Love Me" >
                     </a>
-                    <h3 class="name-products"> Ecobag - Please Love Me </h3>
-                    <p class="price-products"> R$45,00 </p>
-                    <p class="price-split-price"> 12x R$3,75 (Sem Juros) </p>
+                    <h2 class="text-big margin-top"> Ecobag - Please Love Me </h2>
+                    <p class="text-small"> R$45,00 </p>
+                    <p class="text-small"> 12x R$3,75 (Sem Juros) </p>
                 </li>
-                <div>
-                    <a class="ver-produtos" href="./produtos/produtos.html"> 
-                        <button > VER TODOS OS PRODUTOS  </button>
-                    </a> 
-                </div>
             </ul>
+            <div class="flex justify-center justify-around">
+                <a class="ver-produtos" href="./produtos/produtos.html"> 
+                    <button class = "button-purple margin-top" > VER TODOS OS PRODUTOS  </button>
+                </a> 
+            </div>
               
 
         </section>
 
-        <section class="instgram">
+        <section class="instgram bg-purple text-center padding margin-top">
 
-                <h3> Você já conhece o nosso Instagram?</h3>
-                <p> Caso queira produtos personalizados pode me chamar direto por lá </p>
+                <h3 class="text-biggest "> Você já conhece o nosso Instagram?</h3>
+                <p class="text-big margin-top"> Caso queira produtos personalizados pode me chamar direto por lá </p>
           
-                <a class="insta-logo" href="https://www.instagram.com/izart.store/">
-                    <i class="fi fi-brands-instagram" ></i> <p> izart.store</p>
+                <a class="flex justify-center gap5  margin-top" href="https://www.instagram.com/izart.store/">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="20" height="20" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve"><g>
+                        <g xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12,2.162c3.204,0,3.584,0.012,4.849,0.07c1.308,0.06,2.655,0.358,3.608,1.311c0.962,0.962,1.251,2.296,1.311,3.608   c0.058,1.265,0.07,1.645,0.07,4.849c0,3.204-0.012,3.584-0.07,4.849c-0.059,1.301-0.364,2.661-1.311,3.608   c-0.962,0.962-2.295,1.251-3.608,1.311c-1.265,0.058-1.645,0.07-4.849,0.07s-3.584-0.012-4.849-0.07   c-1.291-0.059-2.669-0.371-3.608-1.311c-0.957-0.957-1.251-2.304-1.311-3.608c-0.058-1.265-0.07-1.645-0.07-4.849   c0-3.204,0.012-3.584,0.07-4.849c0.059-1.296,0.367-2.664,1.311-3.608c0.96-0.96,2.299-1.251,3.608-1.311   C8.416,2.174,8.796,2.162,12,2.162 M12,0C8.741,0,8.332,0.014,7.052,0.072C5.197,0.157,3.355,0.673,2.014,2.014   C0.668,3.36,0.157,5.198,0.072,7.052C0.014,8.332,0,8.741,0,12c0,3.259,0.014,3.668,0.072,4.948c0.085,1.853,0.603,3.7,1.942,5.038   c1.345,1.345,3.186,1.857,5.038,1.942C8.332,23.986,8.741,24,12,24c3.259,0,3.668-0.014,4.948-0.072   c1.854-0.085,3.698-0.602,5.038-1.942c1.347-1.347,1.857-3.184,1.942-5.038C23.986,15.668,24,15.259,24,12   c0-3.259-0.014-3.668-0.072-4.948c-0.085-1.855-0.602-3.698-1.942-5.038c-1.343-1.343-3.189-1.858-5.038-1.942   C15.668,0.014,15.259,0,12,0z" fill="#43295a" data-original="#000000"/>
+                            <path d="M12,5.838c-3.403,0-6.162,2.759-6.162,6.162c0,3.403,2.759,6.162,6.162,6.162s6.162-2.759,6.162-6.162   C18.162,8.597,15.403,5.838,12,5.838z M12,16c-2.209,0-4-1.791-4-4s1.791-4,4-4s4,1.791,4,4S14.209,16,12,16z" fill="#43295a" data-original="#000000"/>
+                            <circle cx="18.406" cy="5.594" r="1.44" fill="#43295a" data-original="#000000"/>
+                        </g>
+                  
+                        </g></svg> <p>    izart.store</p>
                 </a>
          
            
                 <a  href="https://www.instagram.com/izart.store/"> 
-                    <button>  Siga nos ;)</button>
+                    <button class="button-purple-small margin-top">  Siga nos ;)</button>
                 </a>
         </section>
     </main>
@@ -230,9 +244,10 @@
 
     </footer>
 
-
     <script src="./js/base-produtos.js"></script>
-    <script src="./produtos/creat-produtos.js"></script>
+    <script src="./js/filtros.js"></script>
+    
+   
 </body>
 </html>
 
@@ -248,19 +263,3 @@
 
 
 
-
-
-
-
-<ul>
-    <li><a href="#home">Home</a></li>
-    <li><a href="#news">News</a></li>
-    <li class="dropdown">
-      <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
-      <div class="dropdown-content">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-      </div>
-    </li>
-  </ul>

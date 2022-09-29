@@ -21,6 +21,11 @@ nav ul {
     display: flex;
 }
 
+nav a {
+    color: var(--purple);
+    text-decoration: none
+}
+
 .menu-secundario{
     background-color: var(--gray50);
     position: absolute;

@@ -1,6 +1,10 @@
 .flex {
     display: flex;
 }
+.colum {
+    display: flex;
+    flex-direction: column;
+}
 
 .justify-center {
     justify-content: center;
@@ -33,6 +37,8 @@
 .align-content-center {
     align-content: center;
 }
+
+
 
 .absolute {
     position: absolute;

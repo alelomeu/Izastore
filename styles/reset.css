@@ -2,7 +2,7 @@
     --purple: #43295a;
     --purple100: #c4acd9 ;
     --purple50:#c4b4d5;
-    --gray50: #E5E5E5;
+    --gray50: #e5e5e5;
     --purple75: #c4b4d57e;
     --border-radius4: 4px;
     --border-radius8: 8px;
@@ -15,10 +15,6 @@
     outline: none;
 }
 
-a {
-    color: var(--purple);
-    text-decoration: none
-}
 
 html {
     font-family: 'Open Sans';
